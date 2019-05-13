@@ -1,0 +1,3 @@
+User-agent: *
+Host: http://gorlaks.ru
+sitemap: http://gorlaks.ru/sitemap.xml

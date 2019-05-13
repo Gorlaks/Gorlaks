@@ -1,0 +1,74 @@
+/*-----------------------------404------------------------------*/
+body {
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%), -webkit-linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%) 0.1875em 0.1875em, -webkit-radial-gradient(at 50% 0, #484847, #090909);
+    background: linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%), linear-gradient(45deg, #292929 25%, transparent 25%, transparent 75%, #292929 75%) 0.1875em 0.1875em, radial-gradient(at 50% 0, #484847, #090909);
+    background-size: 0.375em 0.375em, 0.375em 0.375em, 100% 100%;
+    background-attachment: fixed;
+}
+.copy {
+    position: fixed;
+    font-size: 19px;
+    right: 20px;
+    bottom: 10px;
+    color: #fff;
+}
+.error-container {
+    width: 50%;
+    height: auto;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -25%;
+    margin-top: -200px;
+    padding: 30px 30px;
+}
+.title-error {
+    width: 100%;
+    height: 50px;
+}
+.title-error h1::after {
+    content: "";
+    display: block;
+    width: 180px;
+    height: 3px;
+    background-color: #75ceff;
+}
+.title-error h1 span {
+    color: #75ceff;
+}
+.text-error {
+    width: 100%;
+    height: auto;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.text-error p a {
+    color: #75ceff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px){
+    .text-error {
+        font-size: 18px;
+        font-weight: 100;
+        line-height: 23px;
+    }
+    .title-error h1 {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
